@@ -1,0 +1,31 @@
+.menu a {
+	display: flex;
+	text-decoration: none;
+	color: green;
+	background: blueviolet;
+	margin-left: 25px;
+	font-size: 25px;
+	padding-left: 7px;
+	padding-right: 7px;
+	border-radius: 12px;
+	transition: 0.5s;
+}
+.menu {
+	display: flex;
+	text-decoration: none;
+	list-style: none;
+	opacity: 25%;
+	transition: 0.25s;
+	position: fixed;
+}
+
+.menu a:hover {
+	color: blue;
+	background-color: green;
+}
+
+.menu:hover {
+	opacity: 100%;
+
+}
+
